@@ -21,7 +21,7 @@ function Landing() {
       <header className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
         <div className="flex items-center gap-3">
           <img src={logo} alt="Vernique Afrika" className="h-11 w-11 rounded-full ring-2 ring-[oklch(0.78_0.14_85_/_0.5)] object-cover" />
-          <div className="font-serif text-lg">Vernique Afrika</div>
+          <div className="font-serif text-lg">Vernique Afrika Clothing Line</div>
         </div>
         <Link to="/auth" className="btn-luxe hover:[&]:btn-luxe-hover rounded-full px-5 py-2 text-sm font-medium">
           Sign in
@@ -72,7 +72,7 @@ function Landing() {
 
       <footer className="border-t border-border/60 bg-[oklch(0.18_0.03_162)] text-[oklch(0.94_0.02_90)]">
         <div className="mx-auto max-w-7xl px-6 py-10 text-center">
-          <div className="font-serif text-2xl text-gold">Vernique Afrika</div>
+          <div className="font-serif text-2xl text-gold">Vernique Afrika Clothing Line</div>
           <p className="mt-1 text-sm opacity-80">Where African Elegance Meets Modern Fashion</p>
           <p className="mt-4 text-xs opacity-60">AI-generated content should be reviewed before business use.</p>
         </div>
