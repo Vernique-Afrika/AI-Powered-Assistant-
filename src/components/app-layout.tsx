@@ -43,7 +43,7 @@ export function AppLayout({ children }: { children: ReactNode }) {
           <div className="flex items-center gap-3 min-w-0">
             <img src={logo} alt="Vernique Afrika" className="h-10 w-10 shrink-0 rounded-full ring-2 ring-[oklch(0.78_0.14_85_/_0.6)] object-cover" />
             <div className="min-w-0">
-              <div className="font-serif text-lg truncate text-gold">Vernique Afrika</div>
+              <div className="font-serif text-lg truncate text-gold">Vernique Afrika Clothing Line</div>
               <div className="text-[10px] uppercase tracking-widest opacity-70">AI Assistant</div>
             </div>
           </div>
@@ -87,13 +87,13 @@ export function AppLayout({ children }: { children: ReactNode }) {
           <button onClick={() => setOpen(true)}><Menu className="h-5 w-5" /></button>
           <div className="flex items-center gap-2">
             <img src={logo} alt="" className="h-7 w-7 rounded-full object-cover" />
-            <span className="font-serif">Vernique Afrika</span>
+            <span className="font-serif">Vernique Afrika Clothing Line</span>
           </div>
           <div className="w-5" />
         </header>
         <main className="flex-1 min-w-0">{children}</main>
         <footer className="border-t border-border/60 px-6 py-6 text-center text-xs text-muted-foreground">
-          <div className="font-serif text-sm text-foreground">Vernique Afrika</div>
+          <div className="font-serif text-sm text-foreground">Vernique Afrika Clothing Line</div>
           <p className="italic">Where African Elegance Meets Modern Fashion</p>
           <p className="mt-2">AI-generated content should be reviewed before business use.</p>
         </footer>

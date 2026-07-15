@@ -59,7 +59,7 @@ function AuthPage() {
       <div className="w-full max-w-md">
         <div className="mb-6 flex flex-col items-center">
           <img src={logo} alt="Vernique Afrika" className="h-16 w-16 rounded-full ring-2 ring-[oklch(0.78_0.14_85_/_0.5)] object-cover" />
-          <h1 className="mt-4 font-serif text-3xl">Vernique Afrika</h1>
+          <h1 className="mt-4 font-serif text-3xl">Vernique Afrika Clothing Line</h1>
           <p className="text-sm text-muted-foreground">AI Business Assistant</p>
         </div>
         <div className="glass-panel rounded-3xl p-8">
